@@ -1,7 +1,7 @@
 spotify:
   CLIENT_ID: 'CLIENT_ID'
-  CLIENT_SECRET: 'bCLIENT_SECRET'
-  USER: 'USER'
+  CLIENT_SECRET: 'CLIENT_SECRET_ID'
+  USER: 'USER_ID'
   REDIRECT_URL: 'http://localhost:8000/callback'
   SCOPE: 'playlist-modify-public playlist-modify-private'
-  PLAYLIST: 'PLAYLIST'
+  PLAYLIST: 'PLAYLIST_ID'
