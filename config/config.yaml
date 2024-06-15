@@ -1,0 +1,7 @@
+spotify:
+  CLIENT_ID: 'c97059e9f08e41159b29064147e82ff5'
+  CLIENT_SECRET: 'bed718ec384e4b77bf1b69b62d4287cc'
+  USER: '31esytd2qy5mjzdq5fx6rfwahsrm'
+  REDIRECT_URL: 'http://localhost:8000/callback'
+  SCOPE: 'playlist-modify-public playlist-modify-private'
+  PLAYLIST: '5bJPCvsUxZEOElf8OKkMys'
