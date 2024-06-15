@@ -27,14 +27,18 @@ Setup:
      SCOPE: 'playlist-modify-public playlist-modify-private'
      PLAYLIST: 'your_playlist_id'
 
+Note: Make sure that the config.yaml file is in the same folder as the script simple_recommendation_app.py or adjust the script to point to the correct path of config.yaml.
+
 Running the app:
 
-To run the Flask app, use the following command:
+1. To run the Flask app, use the following command:
    python app/simple_recommendation_app.py
 
-Open your web browser and navigate to:
+2. Make sure you are logged into Spotify in your web browser.
+
+3. Open your web browser and navigate to:
    http://127.0.0.1:8000/get_music_recommendations?seed_artists=artist_id
-to get music recommendations.
+   to get music recommendations.
 
 Folder structure:
 
