@@ -1,32 +1,31 @@
+# Spotify Recommendation App
 
-Spotify Recommendation App
+This is a **Flask** application that provides music recommendations using the **Spotify API**.
 
-This is a Flask application that provides music recommendations using the Spotify API.
+##### Setup:
 
-Setup:
+#### 1. Clone the repository:
 
-1. Clone the repository:
-
-   git clone https://github.com/your-username/spotify-recommendation-app.git
+   git clone https://github.com/mikolajsto/Spotify-simple-recommendation-app.git
    cd spotify-recommendation-app
 
-2. Create a virtual environment and activate it:
+#### 2. Create a virtual environment and activate it:
 
    python -m venv venv
 
-   On macOS and Linux:
+   ***On macOS and Linux:***
 
    source venv/bin/activate
 
-   On Windows:
+   ***On Windows:***
 
    venv\Scripts\activate
 
-3. Install the dependencies:
+#### 3. Install the dependencies:
 
    pip install -r requirements.txt
 
-4. Set up your config.yaml file in the config folder with the following content:
+#### 4. Set up your [config.yaml file](./app/config.yaml) with the following content:
 
    spotify:
      CLIENT_ID: 'your_client_id'
@@ -41,15 +40,15 @@ Setup:
    - Do not change the `SCOPE` value in the config.yaml file as it must be set as specified.
    - If `localhost:8000` does not work, you may need to change it to `localhost:5000`.
 
-Running the app:
+## Running the app:
 
-1. To run the Flask app, use the following command:
+#### 1. To run the Flask app, use the following command:
 
    python app/simple_recommendation_app.py
 
-2. Make sure you are logged into Spotify in your web browser.
+#### 2. Make sure you are logged into Spotify in your web browser.
 
-3. Open your web browser and navigate to:
+#### 3. Open your web browser and navigate to:
 
    http://127.0.0.1:8000/get_music_recommendations?seed_artists=artist_id
 
@@ -59,19 +58,20 @@ Running the app:
 
    http://127.0.0.1:8000/get_music_recommendations?seed_artists=artist_id&seed_tracks=track_id&seed_genres=genre
 
-Changing Playlist Name and Description
+[**Changing Playlist Name and Description**](./app/simple_recommendation_app.py#L88)
 
-   playlist_id = 'your_playlist_id'
-   sp.user_playlist_change_details(user='your_user_id', playlist_id=playlist_id, name='New Playlist Name', description='New Playlist Description')
+   playlist = sp.user_playlist_create(user_id, 'New Playlist Name', public=False, description='New Playlist Description')
 
 Replace `'New Playlist Name'` and `'New Playlist Description'` with your wanted name and description of playlist.
 
-Folder structure:
+##### 📁 Folder structure:
 
 spotify-recommendation-app/
 ├── app/
 │   └── simple_recommendation_app.py
-├── config/
 │   └── config.yaml
+├── project-escription/
+│   └── Spotify_prosty_rekomender_muzyczny_PL.pdf
+│   └── Spotify_Recommendation_App_EN.pdf
 ├── requirements.txt
-├── README.txt
+├── README.me
