@@ -66,18 +66,20 @@ This is a **Flask** application that provides music recommendations using the **
 
 Replace `'New Playlist Name'` and `'New Playlist Description'` with your wanted name and description of playlist.
 
-##### 📁 Folder structure:
+#### 📁 Folder structure:
 
+```plaintext
 spotify-recommendation-app/
 ├── app/
-│   └── simple_recommendation_app.py
+│   ├── simple_recommendation_app.py
 │   └── config.yaml
 ├── images/
 │   └── simple_recommendation_app_logo.png
-├── project-escription/
-│   └── Spotify_prosty_rekomender_muzyczny_PL.pdf
+├── project-description/
+│   ├── Spotify_prosty_rekomender_muzyczny_PL.pdf
 │   └── Spotify_Recommendation_App_EN.pdf
 ├── requirements.txt
-├── README.me
+└── README.md
+```
 
 _*Logo was created by DALL-E_
