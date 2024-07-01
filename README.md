@@ -1,5 +1,7 @@
 # Spotify Recommendation App
 
+![Logo](./images/simple_recommendation_app_logo.png)
+
 This is a **Flask** application that provides music recommendations using the **Spotify API**.
 
 ##### Setup:
@@ -70,8 +72,12 @@ spotify-recommendation-app/
 ├── app/
 │   └── simple_recommendation_app.py
 │   └── config.yaml
+├── images/
+│   └── simple_recommendation_app_logo.png
 ├── project-escription/
 │   └── Spotify_prosty_rekomender_muzyczny_PL.pdf
 │   └── Spotify_Recommendation_App_EN.pdf
 ├── requirements.txt
 ├── README.me
+
+_*Logo was created by DALL-E_
