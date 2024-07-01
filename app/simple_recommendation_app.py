@@ -121,5 +121,5 @@ if __name__ == '__main__':
     try:
         app.run(debug=True, port=8000)  # Use port 8000
     except Exception as e:
-        print(f"Błąd uruchamiania aplikacji Flask: {e}")
+        print(f"Error starting Flask application: {e}")
         sys.exit(1)
